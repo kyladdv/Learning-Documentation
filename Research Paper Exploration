@@ -1,0 +1,96 @@
+TASK 1: Research Paper Exploration
+Link: https://ieeexplore.ieee.org/document/8718630
+
+SUMMARY
+Through the exploration of the research paper titled "Comparative Analysis of Computer Architecture Simulators" the topics of the landscape of computer architecture simulation techniques are explored and provides an evaluation of six contemporary simulators. The simulators explored include gem5, MARSSx86, Multi2Sim, PTLsim, Sniper, and ZSin. Through the completion of this research, it was done to help with researchers’ ability to chooser appropriate simulators through the comparison of accuracy and features against the real hardware benchmarks. 
+
+Objective 
+Categorizing and evaluating different simulators based on the variety of features and accuracy through mirroring real-world hardware performances is the primary objective of this research paper. This is specifically shown through targeting the Intel Haswell microarchitecture.
+
+Methodologies
+Using published parameters and supporting documents where seen fit, the researchers set up each simulator to closely mimic the Haswell design. They used PAPI performance counters to compare findings from simulators to those from real world hardware, and they used SPEC-CPU2006 and MiBench benchmarks to assess IPC, cache misses and branch mispredictions. 
+
+Findings 
+Branch prediction and instruction issue queues identifies their differences in simulator configurations. Along with that a comparative analysis on the accuracy and features of the simulator is conducted, helping in provide readers with an insight into the suitability for a variety of research applications in computer architecture.
+
+CRITICAL ANALYSIS
+Advantages 
+1. Research Diversity 
+Through the categorization of simulators based on their features and accuracy, while catering to various diverse research requirements in computer architecture.
+
+2. Performance Evaluation
+For researchers to get accurate predictions on simulator performances, we had the ability to see the evaluation of different simulators against real hardware.
+
+3. Educational Resources
+This is a great educational resource for researchers who are in their beginning stages of research, because it provides exposure to a range of simulation tools and methodologies.
+
+Disadvantages
+1. Configuration Variability 
+when it comes to performance measurements, the accuracy may be limited by variations in simulators setups. Specifically, these limits may be in supporting microarchitectural aspects like μ-op fusion.
+
+2. Benchmarking Challenges
+Through the comparison of the embedded benchmark, it was found that the SPEC benchmarks on simulators is more time consuming. With the time issue, this makes it difficult for thorough performance assessments. 
+
+APPLICATION
+I found that the methodologies in this paper can be applied to coursework for research projects; because this allows students the ability to replicate or extend the experiments conducted within the paper, while also helping in fostering a deeper understanding of the accuracy and variability within a simulator. Not only can it be used within research projects, but it can be used to conduct hands-on experience and educate students. This can be done through the completion of practical assignments using simulators to emulate multiple architectures and conduct an analysis of the performance metrics. This would provide students with a better understanding of the complexities of simulations within computer architecture and the importance of an accurate model. 
+
+Reference Link 
+A. Akram and L. Sawalha, "A Survey of Computer Architecture Simulation Techniques and Tools," in IEEE Access, vol. 7, pp. 78120-78145, 2019, doi: 10.1109/ACCESS.2019.2917698.
+
+
+
+
+
+TASK 2: Evaluating emulsiV
+Link: https://eseo-tech.github.io/emulsiV/
+
+OVERVIEW 
+Based on the Mozilla Public License 2.0, emulsiV is a free online software. This software was designed by Guillaume Savaton, who is also an engineer, researcher and instructor. Virgule is a basic CPU core implementation that was built on the RISC-V architecture, and emulsiV is the virtual simulator for it. This simulator’s main purpose is to serve as a teaching tool for computer architecture fundamental. The user interface that is being used is animating the data transfers between functional units and is displaying the data path’s structure. A single instruction tends to be executed in may phases (fetch, decode, ALU, mem/reg, PC), for educational purposes. This is not meant to provide a particular sequence or pipeline implementation. 
+
+
+ADVANTAGES & DISADVANTAGES 
+Advantages 
+1. Interactive Visualization
+this software provides users with the ability to view changes in the processor's state in real time. This provides users with a fast and transparent understanding of how different commands impact the system. Through the incorporation of useful illustration, this interactive software not only provides learners with understanding but reinforces theoretical topics.
+
+2. Teaching Tool
+This tool helps teachers who are teaching computer architecture principles provide more in-depth and clear examples. This helps in expanding beyond traditional lecture approaches, providing visuals helps in breaking down complicated concepts and making it easier for students to understand what is being taught. 
+
+3. Accessibility 
+This software is easily accessible from anywhere and any device if you have an internet connection, due to it being a web-based platform. This helps in eliminating hardware or software installations, making it a lot simpler for professionals and students to use the simulator where seen fit. 
+
+Disadvantage 
+1. Performance Restrictions
+Due to this simulator being a web-based tool, it is not necessarily as performant as a desktop-based simulator when it comes to emulating intricate or larger based systems. Based on the internet access, this may impact the performance of the emulator. 
+
+2. Limited Scope 
+This software is well known for its instructional purposes and implementing simple simulations, but it does not have all the required capabilities/customizations that are needed when it comes to profession or research-grade material. If individuals are in search of a more intricate analysis/simulation capabilities, then this may not be the best resource.
+
+
+COMPARISON WITH TRADITIONAL TOOLS
+When it comes to the use of interfaces, emulsiV is seen as a more user-friendly visualization and simulation tool due to its more intuitive, simplicity and aesthetically pleasing interface. Whereas many traditional tools such as, SPIM and MARS have steeper learning curves that require local installation to be completed. The traditional tools can perform better when it comes to simulation capabilities and managing more intricate programs that may have greater efficiency. But emulsiV continues to be seen as better in terms of its usability and accessibility, especially when it comes to using it in a classroom setting to perform demos and teach in a simpler way. 
+
+
+PRACTICAL APPLICATION 
+Hypothetical Project: 
+Students will work in a group to develop a simple OS kernal then conduct an anaylis
+
+Goal Outcome of Hypothetical Project: 
+1. Educational: Educate students about the fundamentals of an Operating System        through design and implementation 
+2. Practical: Allow students to conduct hands-on experimentation at a beginner’s      level, conducting programming and debugging protocols.
+3. Research: Be able to conduct an analysis of the efficiency of varying kernels      and algorithms.
+
+Outline:
+1. Kernel Development: Students will create a basic operating system kernel that      has fundamental features like memory management, I/O processing, and process       scheduling.
+2. Instruction Set Usage: To communicate directly with the hardware, the kernel       will be written in assembly language.
+3. Simulation and Analysis: Students will use emulsiV to simulate their kernel's      operation, watch how different components behave, and assess how efficient         their code is.
+
+How emulsiV will Enhance Learning Outcomes 
+1. Hands on and interactive debugging enhance students learning by allowing them      to create, observe, process, register and evaluate memory. Specifically, it is     good for teaching students how to fix potential bugs in a less time consuming      and more practical way. 
+2. By using this simulation tool students will be provided with the opportunity to    run real-time visualization, which will give users feedback immediately. This      feedback will help students better understand how a specific command may impact    the system that they are running and provide them with a simplified                understanding of a variety of challenging concepts. 
+3. Accessibility is very important in terms of this assignment because it allows      students that opportunity to access the web-based tool from anywhere they may      have an internet connection. Due to the accessibility aspect, students will        have the ability to work together while in a remote setting.
+
+
+Reference Link: 
+https://eseo-tech.github.io/emulsiV/doc/
+Larus, J. (n.d.) "SPIM A MIPS32 Simulator" Wisconsin State. https://pages.cs.wisc.edu/~larus/spim.html

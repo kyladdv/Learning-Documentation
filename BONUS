@@ -103,8 +103,11 @@ Circuit
 
 Different Types of Gates 
 1. Basic Gates 
+NOT, AND, OR
 2. Universal Gates 
+NAND, NOR
 3. Arithmatic Gates 
+X-OR, X-NOR
 
 
 Truth tables help in understanding all of the logical possibilities 

@@ -1,0 +1,110 @@
+NOTES FROM CLASS 
+Notes from Class 
+
+INPUT A	- T
+INPUT B	-T
+AND	- T
+OR	- T
+NAND	- T
+NOR - F
+					
+					
+Gates are taking more than 2 inputs but only giving out 1 output 
+Power of 2 
+
+GND
+Display 1 – b and c 
+Inputs = 8 
+Outputs = 8 
+28 – 256 options 
+
+How the gates are converted 
+
+1996
+
+
+Binary value 
+00 + 11
+= 011
+0 + 0
+= 0 (1 output)
+1 + 1 
+= 10 (2 outputs)
+
+Decimal Value 
+0 + 3
+= 3
+
+2 inputs 
+Input A and Input B 
+
+If any are 0 = 0 
+Any become 1 = 1 
+A – XOR gate 
+B – AND gate 
+
+k-map – find the lowest amount of logic gates that you can carry out 
+don’t confuse power with input 
+input is 1 and the output is 1 
+P1.0 P1.2 P1.2 P1.3 – Red LED - Input
+Green LED – output 
+
+IC - Multiple gates inside 
+1 IC – 6 Gates 
+1 not working – not all working 
+Both don’t affect the output 
+IC – Means inside the gates not working – not IC not working 
+IC works – CP works – etc. 
+
+0110103 – is it a binary number? False – there is a three PRESENT 
+10101? = 21 
+Know how to convert one base to another 
+K-Map – reduce logic gates 
+
+
+Combinational Circuits 
+•	Outputs depend only on present inputs 
+•	Feedback path is not present 
+•	Memory elements are not required 
+•	Clock signal is not required 
+•	Easy to design 
+Sequential Circuits 
+•	Outputs depend on both present inputs and present 
+
+Flip Flops 
+Gates become circuits 
+Edge triggered 
+
+Clock signals 
+
+
+Flowchart 
+-	Don’t get confused about states 
+o	Powering on computer 
+	Press button multiple things are occurring 
+-	Human readable 
+-	State diagram 
+o	State transition 
+	State to state 
+•	How long you press – on/off or sleep 
+
+Registers 
+-	Serial in serial out 
+o	Q3 = Q2 = Q1 = Q0 = 0
+
+How the gates useful to solve 
+Fundamental understanding of gates to the application 
+
+If there is an error in the signal, then it will appear as red and that means that there was an issue within the gate but does not mean that the entire thing does not work 
+If the signal is blue, then the state has been displayed as true
+If the signal is white, then the state is not high and is low with a false reading
+Circuit 
+-	
+
+Different Types of Gates 
+1. Basic Gates 
+2. Universal Gates 
+3. Arithmatic Gates 
+
+
+Truth tables help in understanding all of the logical possibilities 

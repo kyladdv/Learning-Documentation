@@ -1,18 +1,75 @@
-PATENT EXPLORATION 
+PATENT EXPLORATION: 
 Title: Single chip integrated circuit computer architecture
 Patent Number: 4,942,516
 Date of Patent: July 17, 1990
 Inventor: Gilbert P. Hyatt, 7841 Jennifer Cir., La Palma, Calif. 90623
+Name of the Issuing Office: U.S. Patent and Trademark Office 
 Link: https://patents.google.com/patent/US4942516A/en
 
+TECHNICAL REPORT: 
 
-INTRODUCTION 
+INTRODUCTION
 
+The creation of fully integrated circuit computers on a single chip marks a turning point in the evolution of microcomputer architecture. This report will explore a patent that uses such an architecture, emphasizing its significance and its bearing on next computer technology. The inventions included by the patent include an effective instruction set, serial and pulse modulated communication, and integrated ROM (Read-Only Memory) and RAM (Random-Access Memory). The design of next gadgets will be impacted by this architecture's potential to provide computer systems that are more powerful, efficient, and small.
 
-SUMMARY OF PATENT 
+This patent is significant not just because of its historical background but also because of its significant influence on current and next computer systems. Because discrete components were frequently used in traditional computer designs, the systems were bulkier, more power-hungry, and less dependable. The patent overcomes these restrictions by combining these parts onto a single chip, which also establishes a new benchmark for small, effective, and potent computer machines. This paper seeks to give a thorough summary of the patent, analyze its importance in relation to the state of computer architecture, and investigate any possible ramifications for next technical advancements.
 
+SUMMARY OF THE PATENT
+
+In the ‘Single chip integrated circuit computer architecture’ patent that was chosen to be discussed within this report, it is describing a complete microcomputer architecture that is used to unify all the required computing components. There are multiple key features that will be discussed within the summary of the patent. The 7 key features involved within this patent include Integrated Circuit ROM, Integrated Circuit RAM, Integrated Circuit Logic, Serial Data Communication, Eight-Bit Instruction Bytes and Sixteen-Bit Operand Words, and the Shared I/O Channels. 
+
+Integrated Circuit ROM: The Read-Only Memory (ROM) is used for non-volatile program storage to ensure that firmware and important software are retained on file forever, even in the case of a power loss (Hyatt, 1990). This component is crucial for storing the fundamental instructions required for the microcomputer to power on and function correctly (Hyatt, 1990). Random access memory (ROM) is used in integrated circuits to remove the need for external memory modules and embed the permanent code directly into the chip, simplifying the design (Hyatt, 1990).
+
+Integrated Circuit RAM: During the execution of a program, Random-Access Memory (RAM) offers volatile storage for data manipulation. RAM, as opposed to ROM, is made for quick reading and writing of temporary data, which makes it perfect for managing the dynamic data that running applications require (Hyatt, 1990). By limiting the physical distance that data must travel, integrating RAM on the same chip as the CPU and other components improves data processing speed and lowers latency.
+
+Integrated Circuit Logic: The integrated circuit logic oversees carrying out computations, regulating data flow within the system, and overseeing the execution of instructions (Hyatt, 1990). The arithmetic logic unit (ALU), control unit, and other registers are components of this logic that combine to process commands and carry out programs (Hyatt, 1990). The design guarantees that operations are carried out effectively and dependably, with lower power consumption and faster processing speed, by building this logic right into the chip (Hyatt, 1990).
+
+Serial Data Communication: Through the use of a serial protocol that transfers data one bit at a time, serial data transmission allows the microcomputer to interface with external devices (Hyatt, 1990). This technique simplifies the chip's architecture and shrinks its physical dimensions by lowering the number of pins needed for communication (Hyatt, 1990). Modern embedded systems must include this functionality as serial communication protocols like UART, SPI, or I2C are frequently used to communicate with sensors, actuators, and other peripheral devices (Hyatt, 1990).
+
+Pulse Modulated Communication: Pulse Width Modulation (PWM) is used to improve the dependability of data transmission (Hyatt, 1990). PWM is a technique for encoding information into signals by altering their pulse width (Hyatt, 1990). This technique may be used to regulate the amount of power supplied to electrical devices. PWM is utilized in this design to guarantee reliable control and communication, particularly in noisy settings. The accuracy and reliability of data transfer between the microcomputer and its peripherals are enhanced by this technique.
+
+Eight-Bit Instruction Bytes and Sixteen-Bit Operand Words: With a balanced approach to instruction encoding and data processing capabilities, the architecture makes use of eight-bit instruction bytes and sixteen-bit operand words (Hyatt, 1990). While sixteen-bit operand words provide the flexibility required for more complicated operations and accessing bigger memory areas, eight-bit instructions allow for a compact and efficient instruction set (Hyatt, 1990). The microcomputer is appropriate for a variety of applications due to its mix of functionality and simplicity.
+
+Shared I/O Channels: Multiple functionalities can use the same physical input/output (I/O) lines thanks to shared I/O channels, which also minimize the chip's overall footprint. Because of this architecture, fewer pins are needed, which results in a smaller and more affordable chip. In addition to making the circuit design simpler, shared I/O channels also increase the microcomputer's adaptability by allowing it to communicate with a wide range of external devices via a small number of connections (Hyatt, 1990).
 
 ANALYSIS
 
+This patent describes a completely integrated circuit computer architecture that is a breakthrough in microcomputer design. Its effects on the architecture of computers today include:
 
-PERSONAL INSIGHTS
+Miniaturization and Integration: The computer architecture reduces the need for external component, resulting in smaller, and more dependable systems, through combing all necessary components onto a singular chip (Hyatt, 1990).  
+
+Cost Reduction: Modern computer technology is seen to be more available due to the cost effectiveness in manufacturing one integrated chip rather than to assemble several separate components. 
+
+Power Efficiency: Due to the lack of interconnects within, there are better power management. This integrated design is very crucial when it comes battery-operated devices, and these usually use less power. 
+
+Functioning and Dependability: Through the reduction of signal propagation delays, this is leading to a higher performance within. Alongside that, limiting possible failure spots helps in improving the dependability. 
+
+Future advancements in computer design are probably going to be influenced by the ideas presented within this patent. These are the areas that I find we will see this patent implemented into significantly:
+
+Internet of Things (IoT): when it comes to the use of single-chip computers that are compact and formidable, they are perfect for Internet of Things devices, as power and space may be limited.
+
+Wearable Technology: Due to the single chip computers being more compact and needing less power, this is something that would fit the need of wearable technology. This also encourages further innovation within this specific area of technology. 
+
+PERSONAL INSIGHTS 
+
+My knowledge of computer architecture and computing systems has increased a significant amount as a result of conducting research into the single chip integrated circuit computer architecture patent. The skillful integration of all required parts into a single chip emphasizes how crucial effective design is to obtaining advantages in terms of cost, size, and power. The inventive use of pulse modulated and serial communication techniques in the patent highlights how important dependable and effective data transfer is.
+
+Optimizing instruction set complexity is crucial for effective data manipulation, as demonstrated by the well-balanced use of 8-bit instruction bytes with 16-bit operand words. In order to build flexible and potent computer systems, this balance is necessary.
+
+Studying this design has provided new insights that highlight the possibility of future developments that will result in computer systems that are more potent, effective, and small. Particularly in quickly expanding domains like wearable technology and the Internet of Things, the capacity to combine all components onto a single chip creates new opportunities for device downsizing and energy efficiency.
+
+I believe that there will be significantly positive impact within the computer architecture industry with the adoption of the different concepts defined throughout this report. This allows manufacturers the opportunity to create computing systems that are not only more dependable but also economical through emphasizing efficiency and integration. In addition to satisfying the current needs, this strategy helps in forecasting future requirements for a more compact and energy-efficient device. By focusing on integration, efficiency, and reliability, the single-chip architecture paves the way for future innovations that will drive the development of more advanced and versatile computing devices.
+
+
+
+
+Reference 
+Hyatt, G. P. (1989). Single chip integrated circuit computer architecture (U.S. Patent No. 4,829,419). U.S. Patent and Trademark Office.
+
+
+
+
+
+
+
+
